@@ -42,8 +42,8 @@ import org.robolectric.RobolectricTestRunner;
 @PrepareForTest({PixelUtil.class})
 @RunWith(RobolectricTestRunner.class)
 @PowerMockIgnore({"org.mockito.*", "org.robolectric.*", "androidx.*", "android.*"})
-@Ignore // TODO T14964130
-public class LayoutPropertyApplicatorTest {
+//@Ignore // TODO T14964130
+public class LayoutPropertyApplicatorTest2 {
 
   @Rule public PowerMockRule rule = new PowerMockRule();
 
